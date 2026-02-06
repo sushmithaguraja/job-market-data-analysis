@@ -1,6 +1,6 @@
 import pandas as pd
 
-def load_data(path="data/job_market_skills.csv"):
+def load_data(path="data/job_market_skills_dataset.csv"):
     df = pd.read_csv(path)
 
     # Standardize column names
